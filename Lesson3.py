@@ -142,3 +142,146 @@
 # list1 = [38, 27, 43, 3, 9, 82, 10]
 # merge_sort(list1)
 # print(list1)
+
+LESSON1PYTHON
+# a = 5
+# b = 5.89
+# c ='hello'
+# интерполяция- получение сложной строки из неск простых
+# print("{} - {} - {}".format(a,b,c))
+# print (f"{a} - {b} - {c}")
+# input() ввод данных
+# print('Введите первое число:')
+# a = input()
+# print(a)
+# print('Введите первое число:')
+# a = input()
+# b = input('Введите второе число:')
+# Программа которая будет выводить сумму двух чисел(сложила программа строки)
+# print('Введите первое число:')
+# a = input()
+# b = input('Введите второе число:')
+# print(a, '+', b, '=', a + b)
+# Привидение типов
+# c =5.89
+# print(c)
+# print(type(c))
+# c = int(c)
+# print (c)
+# print(type(c))
+
+# c =5.89
+# print(c)
+# print(type(c))
+# c = str(c)
+# print (c)
+# print(type(c))
+
+# print('Введите первое число:')
+# a =  int(input())
+# b =  int(input('Введите второе число:'))
+# print(a, '+', b, '=', a + b)
+# Округление первые 3 знака после запятой
+# a = 5.89766
+# b = 6.546789
+# print(round(a*b, 3))
+# Сокращенное присваивание
+# iter = 2
+# iter += 3 # iter = iter + 3
+# iter -= 4 # iter = iter - 4
+# iter *= 5 # iter = iter * 5
+# iter /= 5 # iter = iter / 5
+# iter //= 5 # iter = iter // 5
+# iter %= 5 # iter = iter % 5
+# iter **= 5 # iter = iter ** 5
+
+# a = 1 > 4
+# print(a)
+
+# a = 1 < 4 and 5 > 2
+# print(a)
+
+# a = 1 == 2
+# print(a)
+
+# a = 1 != 2
+# print(a)
+
+# a = 'azx'
+# b = 'azx'
+# print(a == b)
+
+# a = 1 < 3 < 5 < 10
+# print(a)
+
+# username = input('Введите имя:')
+# if username == 'Maша':
+#     print('Ура, это же МАША!')
+# elif username == 'Mарина':
+#     print('Я так ждала Вас, Марина!')
+# elif username == 'Ильнар':
+#     print('Ильнар - топ)')
+# else:
+#     print('Привет, ', username)
+
+# i = 0
+# while i < 5:
+#     if i == 3:
+#         break
+#     i = i + 1
+# else:
+#     print('Пожалуй')
+#     print('хватит )')
+# print(i)
+
+# Метод флажка
+
+# Мин делитель числа
+# n = int(input())
+# flag = True
+# i = 2
+# while flag:
+#     if n % i == 0: # если остаток при делении числа n на i равен 0
+#         flag = False
+#         print(i)
+#     elif i > n // 2: # делить числа не может превышать введенное число, деленное на 2
+#         print(n)
+#         flag = False
+# i += 1
+
+# a = 'qwerty'
+
+# print(a[2])
+
+# for i in a:
+#     print(i)
+
+
+# line = ""
+# for i in range(5):
+#     line = ""
+#     for j in range(5):
+#         line += "*"
+#     print(line)
+
+# text = 'Съешь ещё этих мягкИх французских булок'
+# print(len(text))
+# print('eщё' in text)
+# print(text.lower())
+# print(text.upper())
+# print(text.replace('ещё' , 'ЕЩЁ' ))
+
+# text = 'Съешь ещё этих мягкИх французских булок'
+# print(text[0]) #с
+# print(text[1]) # ъ
+# print(text[len(text)-1]) #к
+# print(text[-1]) #к
+# print(text[:])
+# print(text[:2]) # съ
+# print(text[len(text)-2:]) #ок
+# print(text[2:9]) #ешь ещё
+# print(text[6:-18]) # ещё этих мягких
+# print(text[0:len(text):6]) #сеикакл
+# print(text[::6]) #сеикакл
+# text = text[2:9] + text[-5] + text[:2] #...
+# print(text)
